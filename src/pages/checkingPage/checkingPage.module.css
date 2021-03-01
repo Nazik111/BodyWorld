@@ -227,7 +227,7 @@ margin-left: 1vh;
 @media only screen and (max-width: 600px) {
     .button_outline {
         height: 8vh;
-        width: 65%;
+        width: 75%;
         background: #FFFFFF;
         border: 1px solid #D6DAE5;
         box-sizing: border-box;
@@ -241,11 +241,11 @@ margin-left: 1vh;
     }
 
     .successTitleWrapper {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .exampleEmail {
-        width: 80%;
+        width: 100%;
     }
     .itemBuy {
         font-size: 0.6rem;
@@ -269,7 +269,12 @@ margin-left: 1vh;
         justify-content: space-between !important;
         width: 100% !important;
     }
-
+    .wrapper {
+        width: 90%;
+    }
+    .checkWrapper {
+        width: 90%;
+    }
 
 
 
