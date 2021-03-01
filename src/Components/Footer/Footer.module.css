@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Roboto;
+src: url("../../assets/fonts/Roboto-Regular.ttf");
+}
+
+.footerWrapper {
+    margin-top: 3vh;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title > span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.purchaseButton {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 20px 81.5px !important;
+    background: #BE005A !important;
+    box-shadow: 0px 14px 37px rgba(190, 0, 90, 0.25) !important;
+    border-radius: 9px !important;
+    font-family: Roboto;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    line-height: 21px !important;
+    color: #FFFFFF !important;
+}
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .purchaseButton {
+        font-size: 12px !important;
+        padding: 10px 40.5px !important;
+    }
+
+    .title > span {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .purchaseButton {
+        font-size: 10px !important;
+        padding: 10px 15px !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .purchaseButton {
+        font-size: 15px !important;
+        padding: 15px 60px !important;
+    }
+
+    .title > span {
+        font-size: 12px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .purchaseButton {
+        font-size: 20px !important;
+        padding: 20px 81.5px !important;
+    }
+
+    .title > span {
+        font-size: 24px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

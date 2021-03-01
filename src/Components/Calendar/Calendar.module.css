@@ -1,0 +1,25 @@
+.calendarWrapper {
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 2vh;
+    padding-left: 1vh;
+}
+
+.calendarTitle {
+    padding-left: 2vw;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #AFB3BF;
+    width: 32vw;
+}
+
+.calendarForm {
+    color: #AFB3BF;
+}
+
+

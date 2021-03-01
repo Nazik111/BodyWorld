@@ -1,0 +1,46 @@
+.purchaseWrapper {
+    width: 60vw;
+    padding-top: 5vh;
+}
+
+.ticketTitle {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+padding-left: 1.5vw;
+
+    color: #000000;
+}
+
+
+.purchaseTitleWrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.descriptionTitle {
+    width: 20vw !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    margin-left: 1.5vw !important;
+    margin-top: 0.7vh;
+    color: #AFB3BF;
+    font-size: 0.5rem !important;
+}
+.descr {
+    font-size: 5px !important;
+}
+
+@media screen and (max-width: 600px) {
+    .descriptionTitle {
+        font-size: 0.3rem !important;
+    }
+
+    .ticketTitle {
+        font-size: 1rem !important;
+    }
+
+}

@@ -1,0 +1,17 @@
+.cardListWrapper {
+    width: 60vw;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 1vw;
+}
+
+hr {
+    width: 60vw !important;
+}
+
+@media screen and (max-width:400px){
+    .cardListWrapper {
+        margin-right: 6vh;
+    }
+}

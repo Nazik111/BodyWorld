@@ -1,0 +1,348 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    margin-top: 3vh;
+}
+
+.checkWrapper {
+   padding-bottom: 2vh;
+    padding-top: 3vh;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 80px rgba(0, 0, 0, 0.2);
+    border-radius: 19px;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.buttonWrapper {
+   width: 65% !important;
+    padding-bottom: 3vh;
+}
+
+.button_outline {
+    height: 8vh;
+    width: 35%;
+    background: #FFFFFF;
+    border: 1px solid #D6DAE5;
+    box-sizing: border-box;
+    border-radius: 14px;
+    padding-left: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: left!important;
+    align-items: center;
+    font-size: 0.8rem;
+
+}
+.buttonTitle {
+    margin-left: 0.6vw;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.7rem;
+    line-height: 21px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.buttonCheck {
+    background: rgba(0, 0, 0, 0.24) !important;
+    opacity: 0.4;
+padding: 6px;
+    display: flex;
+
+}
+
+.buttonCheck img {
+    width: 10px !important;
+    height: 2vh;
+}
+
+.maskWrapper {
+    margin-top: 3vh;
+    width: 65%;
+    height: 24vh;
+border: 1px solid #D6DAE5;
+    box-sizing: border-box;
+    border-radius: 13px;
+}
+.infoWrapper {
+    margin-top: 3vh;
+    width: 65%;
+    height: 3vw;
+    border: 1px solid #D6DAE5;
+}
+
+.checkWrapper hr {
+width: 90% !important;
+align-self: center;
+}
+
+    .successTitleWrapper {
+    margin-left: 1vw;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 28px;
+width: 100%;
+    color: #21E900;
+}
+
+.goodDescriptionWrapper {
+    margin-left: 1vw;
+}
+.checkingFrom {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vh;
+    width: 90%;
+    padding-top: -50px;
+}
+
+.checkingFooter {
+    width: 100%;
+    margin-left: 2vh;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7rem;
+    line-height: 21px;
+    color: #AFB3BF;
+
+}
+.exampleEmail {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 80px rgba(0, 0, 0, 0.2);
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:1vw;
+}
+
+.formTitle {
+    font-size: 0.8rem;
+    margin-left: 1vw;
+    font-weight: 100;
+}
+.itemPrice {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 28px;
+margin-left: 1vw;
+    color: #000000;
+}
+.itemBuy {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 28px;
+    color: #777C8B;
+    margin-right: 1vw;
+}
+
+.maskWrapper {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
+    align-items: center;
+    height: auto;
+}
+
+.maskText {
+    font-size: 0.7rem;
+}
+
+.maskLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+
+.maskLogo img{
+    width: auto;
+    height: 40px;
+}
+
+.infoFooter {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    margin-top: 3vh;
+    width: 65%;
+    align-items: center;
+}
+
+.contactsWrapper {
+   display: flex !important;
+    flex-direction: row;
+    justify-content: space-between !important;
+    width: 100% !important;
+}
+
+.contactsWrapper > div {
+    font-size: 0.7rem;
+margin-left: 1vh;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .wrapper {
+        width: 90%;
+    }
+    .checkWrapper {
+        width: 90%;
+    }
+
+    .buttonWrapper {
+        width: 90% !important;
+    }
+
+    .button_outline {
+        width: 100%;
+    }
+
+    .maskWrapper {
+        width: 90%;
+    }
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .button_outline {
+        height: 8vh;
+        width: 65%;
+        background: #FFFFFF;
+        border: 1px solid #D6DAE5;
+        box-sizing: border-box;
+        border-radius: 14px;
+        padding-left: 1vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: left !important;
+        align-items: center;
+        font-size: 0.8rem;
+    }
+
+    .successTitleWrapper {
+        font-size: 0.8rem;
+    }
+
+    .exampleEmail {
+        width: 80%;
+    }
+    .itemBuy {
+        font-size: 0.6rem;
+    }
+    .itemPrice {
+        font-size: 0.6rem;
+    }
+    .formTitle {
+        font-size: 0.5rem;
+    }
+    .checkingFooter {
+        font-size: 0.5rem;
+    }
+.smallFont {
+    margin-top: 2vh;
+    font-size: 0.7rem !important;
+}
+    .contactsWrapper {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: space-between !important;
+        width: 100% !important;
+    }
+
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .wrapper {
+        width: 90%;
+    }
+    .checkWrapper {
+        width: 90%;
+    }
+
+    .buttonWrapper {
+        width: 90% !important;
+    }
+
+    .button_outline {
+        width: 100%;
+    }
+
+    .maskWrapper {
+        width: 90%;
+    }
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .wrapper {
+    width: 65%;
+}
+    .checkWrapper {
+        width: 65%;
+    }
+
+    .buttonWrapper {
+        width: 65% !important;
+    }
+
+    .button_outline {
+        width: 65%;
+    }
+
+    .maskWrapper {
+        width: 65%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .wrapper {
+        width: 55%;
+    }
+    .checkWrapper {
+        width: 65%;
+    }
+
+    .buttonWrapper {
+        width: 65% !important;
+    }
+
+    .button_outline {
+        width: 65%;
+    }
+
+    .maskWrapper {
+        width: 65%;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

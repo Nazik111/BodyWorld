@@ -1,0 +1,50 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.p-button {
+    background-color: #BE005A !important;
+}
+
+label{
+    margin-bottom: 20px !important;
+}
+
+.p-inputtext {
+width: 33% ;
+}
+
+.btn-danger {
+    background: #BE005A !important;
+}
+
+.price {
+    white-space: nowrap;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+.p-checkbox .p-checkbox-box.p-highlight {
+    background: #BE005A !important;
+    color: #BE005A !important;
+    height: 20px !important;
+}
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box:hover {
+    border-color: #BE005A !important;
+}
+
+.p-button.p-button-icon-only {
+
+    height: 5px !important;
+    width: 5px !important;
+    background: rgba(0, 0, 0, 0.24) !important;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+
+}

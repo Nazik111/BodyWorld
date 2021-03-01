@@ -1,0 +1,29 @@
+.cardTitleWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardButton {
+    width: 100vw !important;
+    background: #BE005A !important;
+}
+
+.card {
+    width: 100%;
+    border: 1px solid #AFB3BF !important;
+    border-radius: 15px !important;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+#price {
+    white-space: nowrap !important;
+    font-size: 20px !important;
+}
+
+.cardWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between !important;
+}

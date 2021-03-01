@@ -1,0 +1,39 @@
+.formWrapper {
+    width: 60vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-gap: 1.5vh;
+    margin-top: 4vh;
+}
+
+.exampleEmail {
+    height: 10vh !important;
+    border: 1px solid #AFB3BF !important;
+    box-sizing: border-box !important;
+    border-radius: 17px !important;
+}
+
+.formTitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8rem !important;
+    line-height: 140%;
+    color: #E90017;
+}
+
+.checkBox {
+    margin-top: 5vh;
+    height: 10vh !important;
+}
+
+.checkboxWrapper {
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.checkboxWrapper label {
+    margin-top: 3vh;
+    margin-left: 1vw;
+    font-size: 0.9rem;
+}
