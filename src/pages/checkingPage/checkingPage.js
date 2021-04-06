@@ -1,7 +1,7 @@
 import s from './checkingPage.module.css'
 import {Button} from "primereact/button";
 import arrow from '../../images/Fill 4.svg'
-import {CardSubtitle, CardTitle, Input} from "reactstrap";
+import {CardSubtitle, CardTitle} from "reactstrap";
 import React from "react";
 import success from '../../images/Tick Square.svg'
 import mask from '../../images/Mask.svg'
@@ -13,13 +13,13 @@ const CheckingPage = () => {
         <div className={s.wrapper}>
             <div className={s.buttonWrapper}>
                 <div className={s.button_outline}>
-                    <Button className={s.buttonCheck}><img src={arrow}/></Button>
+                    <Button className={s.buttonCheck}><img src={arrow} alt='icon'/></Button>
                     <div className={s.buttonTitle}>Вернуться на сайт</div>
                 </div>
 
             </div>
             <div className={s.checkWrapper}>
-                <div className={s.successTitleWrapper}><img src={success}/>Покупка билетов прошла успешно
+                <div className={s.successTitleWrapper}><img src={success} alt='sucessIcon'/>Покупка билетов прошла успешно
                 </div>
                 <hr/>
                 <div className={s.goodDescriptionWrapper}>
@@ -43,7 +43,7 @@ const CheckingPage = () => {
             </div>
 
             <div className={s.maskWrapper}>
-                <div className={s.maskLogo}><img src={mask}/></div>
+                <div className={s.maskLogo}><img src={mask} alt='mask'/></div>
                 <div className={s.maskTitle}>
                     <CardTitle style={{fontSize:'1rem'}} className={s.smallFont} tag="h5">ТРЕБОВАНИЯ ПО ПОСЕЩЕНИЮ ВЫСТАВКИ</CardTitle>
                     <div className={s.maskText}>Необходимо использовать индивидуальные средства защиты маски, перчатки, соблюдение дистанции 1,5 - 2 метра</div>

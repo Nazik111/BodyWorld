@@ -2,13 +2,13 @@ import React from 'react'
 import s from './Calendar.module.css'
 import {Calendar} from 'primereact/calendar'
 import {locale, addLocale} from "primereact/api";
-import {Button, Label} from "reactstrap";
+
 import 'primereact/resources/themes/bootstrap4-light-purple/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
-import styled from 'styled-components'
+
 import './Calendar.sass'
-import Horizontal from "../horizontalLine";
+
 
 
 const Calendar1 = () => {

@@ -1,7 +1,6 @@
 import React from 'react'
 import s from './Purchase.module.css'
 import ticketLogo from '../../images/Frame 19.svg'
-import Calendar from "../Calendar/Calendar";
 import {CardSubtitle} from "reactstrap";
 
 const Purchase = (props) => {

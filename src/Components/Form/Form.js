@@ -1,8 +1,6 @@
 import React, {useState} from 'react'
 import s from './Form.module.css'
-import {InputText} from "primereact/inputtext";
-import {Label, Input} from "reactstrap";
-import CustomInput from "reactstrap/es/CustomInput";
+import {Input} from "reactstrap";
 import {Checkbox} from "primereact/checkbox";
 
 

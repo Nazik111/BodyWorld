@@ -3,11 +3,12 @@ import s from './App.module.css';
 import HeaderLogo from "./Components/HeaderLogo/HeaderLogo";
 import Footer from "./Components/Footer/Footer";
 import Purchase from "./Components/Purchase/Purchase";
-import Calendar from "./Components/Calendar/Calendar";
 import CardList from "./Components/CardList/СardList";
 import Form from "./Components/Form/Form";
 import Payments from "./Components/Payments/Payments";
 import CheckingPage from "./pages/checkingPage/checkingPage";
+import Calendar1 from "../src/Components/Calendar/Calendar";
+import Horizontal from "./Components/horizontalLine";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
 <HeaderLogo/>
 <Purchase logo={true}/>
 {/*<Purchase logo={false} title={true}/>   <-Это для екрана с формой где мы выбираем форму оплаты.*/}
+<Calendar1/>
+<Horizontal/>
 <CardList/>
 <Footer/>
 <CheckingPage/>

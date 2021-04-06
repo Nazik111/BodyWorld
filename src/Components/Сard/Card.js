@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {
-    Card, CardText, CardBody,
-    CardTitle, CardSubtitle, Button, Badge
+    Card, CardBody,
+    CardTitle, CardSubtitle, Button,
 } from 'reactstrap';
 import s from './Card.module.css'
 import {Tooltip} from "reactstrap";

@@ -1,7 +1,7 @@
 import React from 'react';
 import Card1 from "./../Сard/Card";
 import s from './CardList.module.css'
-import Horizontal from "../horizontalLine";
+
 
 const CardList = () => {
 

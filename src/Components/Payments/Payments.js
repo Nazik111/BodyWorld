@@ -10,12 +10,12 @@ import mip from '../../images/mir.svg';
 const Payments = () => {
     return (
         <div className={s.paymentsWrapper}>
-            <div className={s.item}><img src={visa}/></div>
-            <div className={s.item}><img src={mastercard}/></div>
-            <div className={s.item}><img src={applePay}/></div>
-            <div className={s.item}><img src={googlePay}/></div>
-            <div className={s.item}><img src={tinkoff}/></div>
-            <div className={s.item}><img src={mip}/></div>
+            <div className={s.item}><img src={visa} alt='visa'/></div>
+            <div className={s.item}><img src={mastercard} alt='mastercard'/></div>
+            <div className={s.item}><img src={applePay} alt='applepay'/></div>
+            <div className={s.item}><img src={googlePay} alt='googlePay'/></div>
+            <div className={s.item}><img src={tinkoff} alt='tinkoff'/></div>
+            <div className={s.item}><img src={mip} alt='mip'/></div>
         </div>
     )
 }
